@@ -60,7 +60,7 @@
           <figcaption>
             Pham Gia Bao
           </figcaption>
-          <a class="download-cv-btn" href="{{ url_for('static', filename='Tailieu/CV.2026.pdf') }}" download="PHAM_GIA_BAO_CV_2026.pdf">
+          <a class="download-cv-btn" href="{{ url_for('download_cv') }}">
             Tải CV
           </a>
         </figure>
@@ -165,10 +165,10 @@
     <section id="certifications" class="section reveal">
       <h2>Bằng cấp & Chứng chỉ</h2>
       <div class="certifications-grid">
-        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/PYTHON FOR DATA ANALYTICS.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Azure Data Fundamentals">
+        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/PYTHON FOR DATA ANALYTICS.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Python For Data Analytics">
           <h3>Python For Data Analytics</h3>
           <p class="cert-meta">Datapot • 2026</p>
-          <p>Nền tảng dữ liệu và hệ sinh thái Azure cho phân tích dữ liệu.</p>
+          <p>Phân tích dữ liệu với Python: làm sạch, xử lý và trích xuất insight.</p>
         </a>
         <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/QUERYING DATAWITH MICROSOFTT-SQL.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Querying Data With Microsoft T-SQL">
           <h3>Querying Data With Microsoft T-SQL</h3>
@@ -180,10 +180,25 @@
           <p class="cert-meta">Datapot • 2025</p>
           <p>Thiết kế báo cáo và dashboard trực quan phục vụ ra quyết định.</p>
         </a>
-        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/POWER BI ADVANCED DATA MODELING AND VISUALIZATION.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Azure Data Fundamentals">
+        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/POWER BI ADVANCED DATA MODELING AND VISUALIZATION.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Power BI Advanced Data Modeling and Visualization">
           <h3>Power BI Advanced Data Modeling and Visualization</h3>
           <p class="cert-meta">Datapot • 2026</p>
           <p>Mô Hình Dữ Liệu Nâng Cao và Trực Quan Hóa trong Power BI.</p>
+        </a>
+        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/Foundations Data, Data, Everywhere.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Foundations Data, Data, Everywhere">
+          <h3>Foundations: Data, Data, Everywhere</h3>
+          <p class="cert-meta">Google • Coursera</p>
+          <p>Nền tảng phân tích dữ liệu: vai trò analyst, quy trình và công cụ trong doanh nghiệp.</p>
+        </a>
+        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/Ask Questions to Make Data-Driven Decisions.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Ask Questions to Make Data-Driven Decisions">
+          <h3>Ask Questions to Make Data-Driven Decisions</h3>
+          <p class="cert-meta">Google • Coursera</p>
+          <p>Đặt câu hỏi đúng, làm việc với stakeholder và ra quyết định dựa trên dữ liệu.</p>
+        </a>
+        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/Prepare Data for Exploration.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Prepare Data for Exploration">
+          <h3>Prepare Data for Exploration</h3>
+          <p class="cert-meta">Google • Coursera</p>
+          <p>Thu thập, làm sạch và chuẩn bị dữ liệu phục vụ phân tích và khám phá.</p>
         </a>
       </div>
     </section>
