@@ -317,7 +317,7 @@ body.light .avatar-img--light {
 
 .certifications-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -757,9 +757,12 @@ body.light .contact-item--linkedin:hover .contact-value {
   .stats,
   .skills-grid,
   .projects-grid,
-  .certifications-grid,
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .certifications-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .hero-layout {
