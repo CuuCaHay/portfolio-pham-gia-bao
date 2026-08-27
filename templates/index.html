@@ -20,6 +20,7 @@
       <a href="#skills">Kỹ năng</a>
       <a href="#projects">Dự án</a>
       <a href="#certifications">Bằng cấp</a>
+      <a href="#experience">Kinh nghiệm</a>
       <a href="#contact">Liên hệ</a>
     </nav>
     <button id="themeToggle" class="theme-toggle" aria-label="Đổi giao diện">🌙</button>
@@ -60,7 +61,7 @@
           <figcaption>
             Pham Gia Bao
           </figcaption>
-          <a class="download-cv-btn" href="{{ url_for('static', filename='Tailieu/CV_PhamGiaBao.pdf') }}" download="PHAM_GIA_BAO_CV.pdf">
+          <a class="download-cv-btn" href="{{ url_for('download_cv') }}">
             Tải CV
           </a>
         </figure>
@@ -68,7 +69,7 @@
       <div class="stats">
         <div><strong>2021-2025</strong><span>Data Science</span></div>
         <div><strong>3</strong><span>Dự án tiêu biểu</span></div>
-        <div><strong>3</strong><span>Kinh nghiệm thực tế</span></div>
+        <div><strong>4</strong><span>Kinh nghiệm thực tế</span></div>
       </div>
     </section>
 
@@ -185,7 +186,7 @@
           <p class="cert-meta">Datapot • 2026</p>
           <p>Mô Hình Dữ Liệu Nâng Cao và Trực Quan Hóa trong Power BI.</p>
         </a>
-        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/AZURE DATA FUNDAMENTALS.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Azure Data Fundamentals">
+        <a class="cert-card cert-link" href="{{ url_for('static', filename='Tailieu/AZURE DATAFUNDAMENTALS.pdf') }}" target="_blank" rel="noreferrer" aria-label="Xem chứng chỉ Azure Data Fundamentals">
           <h3>Azure Data Fundamentals</h3>
           <p class="cert-meta">Datapot • 2025</p>
           <p>Nền tảng dữ liệu và hệ sinh thái Azure cho phân tích dữ liệu.</p>
@@ -211,10 +212,35 @@
     <section id="experience" class="section experience reveal">
       <h2>Kinh Nghiệm</h2>
       <p class="experience-lead">
-        Hành trình thực tế từ QA, vận hành bán lẻ đến dự án thương mại điện tử — kết hợp nền tảng
-        <strong>Data Science</strong> để mang lại giá trị cho doanh nghiệp.
+        Hành trình từ <strong>Data Science</strong>, QA đến sản xuất nội dung <strong>AI Video</strong> —
+        kết hợp phân tích dữ liệu, sáng tạo và marketing để tạo giá trị thực tế cho doanh nghiệp.
       </p>
       <ol class="experience-timeline">
+        <li class="experience-item experience-item--current">
+          <article class="experience-card experience-card--current">
+            <div class="experience-meta">
+              <time class="experience-date" datetime="2026-08">08/2026 – Hiện tại</time>
+              <span class="experience-tag experience-tag--intern">Thực tập</span>
+              <span class="experience-tag experience-tag--current">Đang làm</span>
+            </div>
+            <h3 class="experience-role">AI Video Intern</h3>
+            <p class="experience-company">SAYNAMA FOODS</p>
+            <div class="experience-skills" aria-label="Kỹ năng liên quan">
+              <span>AI Video</span>
+              <span>Prompt Engineering</span>
+              <span>Content Marketing</span>
+              <span>Video Editing</span>
+            </div>
+            <ul class="experience-highlights">
+              <li>Sản xuất và phát triển nội dung <strong>video AI</strong> phục vụ truyền thông, marketing của công ty.</li>
+              <li>Dùng công cụ AI tạo video, hình ảnh và hỗ trợ sáng tạo để xây dựng concept, visual và video theo brief.</li>
+              <li>Ứng dụng <strong>Prompt Engineering</strong> để giữ nhất quán nhân vật, bối cảnh, phong cách và thông điệp thương hiệu.</li>
+              <li>Phối hợp team lên ý tưởng, triển khai, chỉnh sửa video theo định hướng thương hiệu SAYNAMA.</li>
+              <li>Hậu kỳ: cắt dựng, ghép cảnh, hiệu ứng, âm thanh, phụ đề và tối ưu nội dung cho mạng xã hội.</li>
+              <li>Chủ động nghiên cứu công nghệ AI mới; kết hợp <strong>AI + Video Production + Content Marketing</strong> để nâng chất lượng và tốc độ sản xuất.</li>
+            </ul>
+          </article>
+        </li>
         <li class="experience-item">
           <article class="experience-card">
             <div class="experience-meta">
@@ -328,7 +354,7 @@
           </span>
           <span class="contact-body">
             <span class="contact-label">Địa chỉ</span>
-            <span class="contact-value">289 Hồng Lạc, Tân Bình, TP. Hồ Chí Minh</span>
+            <span class="contact-value">1/8 Tân Thành, Tân Phú, TP. Hồ Chí Minh</span>
           </span>
         </a>
       </div>
